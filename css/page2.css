@@ -18,7 +18,7 @@
     text-align: center;
     padding-top: 25px;
     font-size: 30px;
-    margin-right: 323px;
+    margin-right: 298px;
     background-color: #474973;
 }
 .button3 {
@@ -33,6 +33,9 @@
     background-color: #474973;
 }
 
+body {
+    width: 1300px;
+}
 main {
     margin-top: 50px;
     clear: both;
@@ -73,6 +76,10 @@ main {
     display: inline-block;
 } */
 
+.cube > p {
+    font-size: 14px;
+    color: black;
+}
 header{
     background-color:#E2C2C6 ;
 
@@ -81,7 +88,7 @@ header{
 nav {
     
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -100,14 +107,14 @@ text-align: center;
     margin-top: 100px;
 } */
 
-.cubes {
+.wrapper {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: repeat(3 1fr);
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 200px);
     height: 40px;
     width: 700px;
-    gap: 100px;
-    margin: auto;
+    gap: 10px;
+    margin-left: 130px;
 }
 
 .cube{
@@ -116,5 +123,5 @@ text-align: center;
     border: solid black 1px;
     height: 100px;
     width: 200px;
-    gap: 30px;
+    gap: 10px;
 }

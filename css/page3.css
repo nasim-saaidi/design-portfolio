@@ -1,0 +1,76 @@
+.button1 {
+    border: solid 1px darkblue ;
+    height: 75px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    background-color: #474973;
+    margin-right: 350px;
+}
+
+.button2 {
+    border: solid 1px darkblue ;
+    height: 75px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    margin-right: 298px;
+    background-color: #474973;
+}
+
+.button3 {
+    border: solid 1px darkblue ;
+    height: 75px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    background-color: #474973;
+}
+
+nav {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+img {
+    width: 700px;
+    height: 400px;
+    float: left;
+}
+
+.studie{
+    color: black;
+    font-size: 70px;
+    margin-left: 300px;
+
+}
+div {
+    background-color: black;
+    height: 600px;
+    width: 1300px;
+}
+
+.text {
+    margin-right: 30px;
+    color: black;
+    font-size: 30px;
+    float: right;
+    width: 500px;
+}
+
+div {
+    background-color: #A6CFD5;
+}
+body {
+    width: 1000px;
+}
+
