@@ -83,6 +83,31 @@ body {
     width: 1300px;
 }
 
+.button1 > a {
+    text-decoration: none;
+    color: black;
+}
+.button2 > a {
+    text-decoration: none;
+    color: black;
+}
+.button3 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.block1 > a {
+    text-decoration: none;
+    color: black;
+}
+.block2 > a {
+    text-decoration: none;
+    color: black;
+}
+.block3 > a {
+    text-decoration: none;
+    color: black;
+}
 
 
 header {

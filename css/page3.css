@@ -85,6 +85,32 @@
     }
 }
 
+.button1 > a {
+    text-decoration: none;
+    color: black;
+}
+.button2 > a {
+    text-decoration: none;
+    color: black;
+}
+.button3 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.block1 > a {
+    text-decoration: none;
+    color: black;
+}
+.block2 > a {
+    text-decoration: none;
+    color: black;
+}
+.block3 > a {
+    text-decoration: none;
+    color: black;
+}
+
 @media screen and (max-width: 440px) {
 
     .navigation {
