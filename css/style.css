@@ -45,7 +45,7 @@
         margin-top: 110px;
         clear: both;
         background-color: #474973;
-   
+
         height: 700px;
     }
 
@@ -65,12 +65,13 @@
         position: absolute;
         width: 780px;
     }
-    
+
     p {
-    
+
         font-size: 40px;
         float: right;
     }
+
     article {
         width: 700px;
         display: inline-block;
@@ -82,28 +83,32 @@
 }
 
 
-.button1 > a {
-    text-decoration: none;
-    color: black;
-}
-.button2 > a {
-    text-decoration: none;
-    color: black;
-}
-.button3 > a {
+.button1>a {
     text-decoration: none;
     color: black;
 }
 
-.block1 > a {
+.button2>a {
     text-decoration: none;
     color: black;
 }
-.block2 > a {
+
+.button3>a {
     text-decoration: none;
     color: black;
 }
-.block3 > a {
+
+.block1>a {
+    text-decoration: none;
+    color: black;
+}
+
+.block2>a {
+    text-decoration: none;
+    color: black;
+}
+
+.block3>a {
     text-decoration: none;
     color: black;
 }
@@ -120,14 +125,16 @@
     main {
         height: 400px;
     }
+
     .buttonWrapper {
-    display: none;
+        display: none;
     }
 
     .img-placeholder {
         margin-left: 0px;
 
     }
+
     header {
         font-size: 30px;
         margin-left: 0px;
@@ -155,7 +162,7 @@
         border: darkblue;
         text-align: center;
     }
-    
+
     .block1 {
         border: solid black 1px;
         margin-right: 0px;
@@ -163,12 +170,14 @@
         align-items: left;
         display: inline-block;
     }
+
     .block2 {
         border: solid black 1px;
         margin-right: 0px;
         width: 140px;
         display: inline-block;
     }
+
     .block3 {
         border: solid black 1px;
         margin-right: 0px;
